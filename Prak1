@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>Praktikum Pemweb 1</title>
+    <body>
+        <h1>
+            <img src="fotosaya.jpg", width="150", height="200">
+            <p>Nama saya Johannes Agusto Lilipaly</p>
+        </h1>
+        <ul>
+            <li><a href="#me"> Tentang Saya </a></li>
+            <li><a href="#exp"> Pengalaman Organisasi </a></li>
+            <li><a href="#contact"> Hubungi Saya </a></li>
+        </ul>
+        
+           <h2 id="me">Tentang Saya</h2>
+           <p>Halo perkenalkan nama saya Johannes Agusto Lilipaly, lahir pada tanggal 24 Agustus 2002 di Bekasi, Jawa Barat. 
+            Saya adalah seorang mahasiswa program studi Teknik Informatika 
+            di Institut Teknologi Sumatera(Itera). Saya berasal dari Bekasi, Jawa Barat. Saya adalah anak ke-2 dari dua bersaudara yang terpaut usia 4 tahun. 
+            Saya beragama Kristen Protestan.
+            Hobi saya adalah bermain game, sepak bola, dan bermalas-malasan. 
+           </p>
+           <p>Saya adalah penggemar anime One Piece dan saya sudah menonton/membaca manga One Piece dari saya SD. Ini adalah klip
+            salah satu moment yang paling saya suka video dari anime favorit saya ini.
+            <ul>
+                <video controls width="600" height="350">
+                <source src="Going Merry.mp4">
+                </video>
+            </ul>
+        
+            <h2 id="exp">Pengalaman Berorganisasi</h2>
+            <table border="1">
+                <tr>
+                    <th rowspan="1">No</th>
+                    <th rowspan="1">Jabatan</th>
+                    <th rowspan="1">Nama Organisasi</th>
+                    <th rowspan="1">Periode Menjabat</th>
+                </tr>
+
+                <tr>
+                    <td align="center"> 1 </td>
+                    <td align="center"> Koordinator Dana Usaha Rohkris </td>
+                    <td align="center"> SMA Negeri 14 Bekasi </td>
+                    <td align="center"> 2019-2020 </td>
+                </tr>
+            </table>
+    
+            <h2 id="contact">Hubungi Saya</h2>
+            <form method="post" mailto="agustolilipaly@gmail.com">
+                Nama : <input type="text" name="" id="">
+                <p>Apakah anda sudah mengenal saya ?</p>
+                <input type="radio" name="" id=""> Sudah <br>
+                <input type="radio" name="" id=""> Belum
+                <p>Apakah anda tertarik untuk mengenal saya ?</p>
+                <input type="checkbox" name="" id=""> Iya <br>
+                <input type="checkbox" name="" id=""> Mungkin <br>
+                <input type="checkbox" name="" id=""> Kayaknya begitu <br>
+                <p>Apakah anda akan menghubungi saya?</p>
+                <input type="radio" name="" id=""> Iya <br>
+                <input type="radio" name="" id=""> Tidak!!! <br>
+                <input type="submit" value="Kirim">
+            </form>
+    </body>
+<head>
+</html>
